@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+dependencies = [
+  "cvg-core"
+]
+
+name = "cvg-protocol"
+version = "0.1.0"
+authors = [
+  { name="t-nician" },
+]
+description = "Main protocol for client-vault-guard network model."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    #"Programming Language :: Python :: 3",
+    #"License :: OSI Approved :: MIT License",
+    #"Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/t-nician/cvg-protocol"
+Issues = "https://github.com/t-nician/cvg-protocol/issues"
